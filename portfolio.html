@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW-5</title>
+    <title>HW-6</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -318,8 +318,8 @@
     <footer>
       <div class="address-container container">
         <a class="logo-address" href="index.html"
-          ><span class="web">Web</span><span class="studio1">Studio</span></a
-        >
+          ><span class="web">Web</span><span class="studio1">Studio</span>
+          </a>
         <address>
           <ul class="address">
             <li class="address-map">
@@ -344,31 +344,55 @@
           <h3 class="group-tittle">приєднуйтесь</h3>
           <ul class="groups">
             <li class="footer-insta">
-              <a class="link-svg1" href="https://www.instagram.com">
+              <a class="link-svg1" href="https://www.instagram.com" aria-label="instagram">
                 <svg class="icons" width="20" height="20">
                   <use href="./images/social.svg#icon-instagram"></use></svg>
                 </a>
             </li>
             <li class="footer-twit">
-              <a class="link-svg1" href="https://twitter.com">
+              <a class="link-svg1" href="https://twitter.com" aria-label="twitter">
                 <svg class="icons" width="20" height="20">
                   <use href="./images/social.svg#icon-twitter"></use></svg>
                 </a>
             </li>
             <li class="footer-fac">
-              <a class="link-svg1" href="https://facebook.com">
+              <a class="link-svg1" href="https://facebook.com" aria-label="facebook"> 
                 <svg class="icons" width="20" height="20">
                   <use href="./images/social.svg#icon-facebook"></use></svg>
                 </a>
             </li>
             <li class="footer-lin">
-              <a class="link-svg1" href="https://www.linkedin.com">
+              <a class="link-svg1" href="https://www.linkedin.com"  aria-label="linkedin">
                 <svg class="icons" width="20" height="20">
                   <use href="./images/social.svg#icon-linkedin"></use></svg>
                 </a>
             </li>
           </ul>
         </div>
+        <p class="form-footer">
+          Підпишіться на розсилку
+        </p>
+        <div class="check-email">
+
+          <div class="footer-wrapper">
+          <input type="email" 
+          name="name" 
+          id="footerEmail" 
+          class="field-footer" 
+          placeholder="E-mail" 
+          required>
+          </div>
+          <button class="button button-send" type="submit">
+            <a class="send" href="https://web.telegram.org/">
+             Підписатися
+             <svg class="icon-send" width="24" height="24">
+              <use href="./images/icon-send.svg#icon-send"></use>
+             </svg>
+            </a>
+          </button>
+
+        </div>
+        
       </div>
     </footer>
     <script src="./js/modal.js"></script>
